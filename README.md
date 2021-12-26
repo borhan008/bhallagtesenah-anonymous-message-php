@@ -8,4 +8,7 @@ Bhallagtesenah - Get Anonymous Compliments. It's a simple PHP script to get anon
 - give your database information correctly
 - import 'database.sql' in your database.
 
-![Screenshot](https://prnt.sc/24lpjj4) 
+index.php
+![Screenshot](https://image.prntscr.com/image/IXXGDX36RgCiD7PZr48blQ.png) 
+
+
