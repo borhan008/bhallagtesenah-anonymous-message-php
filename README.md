@@ -11,4 +11,6 @@ Bhallagtesenah - Get Anonymous Compliments. It's a simple PHP script to get anon
 index.php
 ![Screenshot](https://image.prntscr.com/image/IXXGDX36RgCiD7PZr48blQ.png) 
 
+The HTML template was downloaded from internet. It was completely free.
+
 
