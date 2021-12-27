@@ -11,7 +11,7 @@ session_start()
     <title>Bhallagtesenah - Get Anonymous compliments</title>
 
     <!-- Font Icon -->
-    <link rel="stylesheet" href="YOUR_DIRECTORYfonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="YOUR_DIRECTORY/fonts/material-icon/css/material-design-iconic-font.min.css">
 
     <!-- Main css -->
     <link rel="stylesheet" href="YOUR_DIRECTORY/css/style.css">
