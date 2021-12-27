@@ -6,6 +6,8 @@ Bhallagtesenah - Get Anonymous Compliments. It's a simple PHP script to get anon
 ![Screenshot](https://image.prntscr.com/image/bD0HzKyJSd-ebyc4XkrX0A.png)
 
 
+Demo : http://mesonogger.hstn.me/bhallagtesenah/
+
 # how to use 
 - paste the files in your server or localhost
 - open the 'index.php' file
