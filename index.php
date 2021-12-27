@@ -11,16 +11,16 @@ session_start()
     <title>Bhallagtesenah - Get Anonymous compliments</title>
 
     <!-- Font Icon -->
-    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="YOUR_DIRECTORYfonts/material-icon/css/material-design-iconic-font.min.css">
 
     <!-- Main css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="YOUR_DIRECTORY/css/style.css">
 </head>
 <body>
 
     
 <?php
-$conn = new mysqli("hostname", "username", "password", "databaseName");
+$conn = new mysqli("HOSTNAME", "USERNAME", "PASSWORD", "DATABASENAME");
  if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
@@ -47,7 +47,7 @@ else
 }
 
 
-if($page  != "index.php" && $page != "" ){
+if($page  != "index.php" && $page != "" && $page != $_SESSION['bl_user'] ){
 	$checkuser = "SELECT mid FROM user WHERE un = '$page'";
 	$userresult = $conn->query($checkuser);
 	if($userresult->num_rows == 1) {
@@ -340,7 +340,7 @@ echo "</ul>";
     </div>
 <?php } } ?>
     <!-- JS -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="YOUR_DIRECTORY/vendor/jquery/jquery.min.js"></script>
+    <script src="YOUR_DIRECTORY/js/main.js"></script>
 </body>
 </html>
