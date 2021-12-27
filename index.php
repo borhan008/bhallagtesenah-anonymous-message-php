@@ -114,7 +114,7 @@ if(isset($_SESSION["bl_user"])){
 		<div class="main">
 			<div class="header">
 				<h3>Hey, <span><?php echo $_SESSION['bl_user'] ?></span></h3>
-				<p>localhost/index.php/<?php echo $_SESSION['bl_user'] ?></p>
+				<p><?php echo $_SERVER['SERVER_NAME']; ?>/index.php/<?php echo $_SESSION['bl_user'] ?></p>
 			</div>
 			
 			<?php
