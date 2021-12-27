@@ -55,7 +55,7 @@ CREATE TABLE `user` (
   `mid` int(11) NOT NULL,
   `un` varchar(40) NOT NULL,
   `pw` varchar(30) NOT NULL,
-  `ip` int(50) NOT NULL
+  `ip` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
